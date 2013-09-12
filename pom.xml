@@ -523,11 +523,6 @@ under the License.
                 <artifactId>maven-jxr-plugin</artifactId>
                 <version>2.1</version>
               </plugin>
-              <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>findbugs-maven-plugin</artifactId>
-                <version>2.5.1</version>
-              </plugin>
            </reportPlugins>
           </configuration>
         </plugin>
@@ -564,24 +559,6 @@ under the License.
                 <exclude>**/test/resources/**</exclude>
               </excludes>
           </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>findbugs-maven-plugin</artifactId>
-          <version>2.5.2</version>
-          <configuration>
-            <xmlOutput>true</xmlOutput>
-            <findbugsXmlOutput>false</findbugsXmlOutput>
-            <excludeFilterFile>${top.dir}/findbugs-exclude.xml</excludeFilterFile>
-          </configuration>
-          <executions>
-            <execution>
-              <phase>verify</phase>
-              <goals>
-                <goal>check</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
