@@ -37,5 +37,5 @@ Derivation of LinkRank. Works on HBase host table.
 TrustRank
 --------------
 
-* Use TrustRankComputation with Nutch2HostTrustInputFormat and Nutch2HostOutputFormat with output fields set as mtdt:_tr_
+* Use TrustRankComputation with Nutch2HostTrustInputFormat and Nutch2HostOutputFormat with output fields set as mtdt:\_tr\_
 
