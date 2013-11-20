@@ -160,7 +160,7 @@ public class TrustRankComputation extends BasicComputation<Text, DoubleWritable,
     maxSteps = getConf().getInt(TrustRankComputation.SUPERSTEP_COUNT, 10) + 3;
     scale = getConf().getInt(TrustRankComputation.SCALE, 10);
     dampingFactor = getConf().getFloat(
-            TrustRankComputation.DAMPING_FACTOR, 1.0f);
+            TrustRankComputation.DAMPING_FACTOR, 0.85f);
     removeDuplicates = getConf().getBoolean(
             TrustRankComputation.REMOVE_DUPLICATES, false);
     superStep = getSuperstep();
