@@ -259,7 +259,7 @@ under the License.
     <dep.cli-parser.version>1.1</dep.cli-parser.version>
     <dep.codehaus-jackson.version>1.8.0</dep.codehaus-jackson.version>
     <dep.commons-cli.version>1.2</dep.commons-cli.version>
-    <dep.commons-collections.version>3.2.1</dep.commons-collections.version>
+    <dep.commons-collections.version>3.2.2</dep.commons-collections.version>
     <dep.commons-configuration.version>1.6</dep.commons-configuration.version>
     <dep.commons-httpclient.version>3.0.1</dep.commons-httpclient.version>
     <dep.commons-io.version>2.1</dep.commons-io.version>
