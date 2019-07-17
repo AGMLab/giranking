@@ -266,7 +266,7 @@ under the License.
     <dep.commons-logging.version>1.0.4</dep.commons-logging.version>
     <dep.commons-net.version>3.1</dep.commons-net.version>
     <dep.facebook-hadoop.version>0.20.0</dep.facebook-hadoop.version>
-    <dep.fasterxml-jackson.version>2.1.0</dep.fasterxml-jackson.version>
+    <dep.fasterxml-jackson.version>2.9.9</dep.fasterxml-jackson.version>
     <dep.fastutil.version>6.5.3</dep.fastutil.version>
     <dep.hbase.version>0.90.5</dep.hbase.version>
     <dep.guava.version>12.0</dep.guava.version>
@@ -282,7 +282,7 @@ under the License.
     <dep.typetools.version>0.2.1</dep.typetools.version>
     <dep.yammer-metrics.version>2.2.0</dep.yammer-metrics.version>
     <dep.yourkit-api.version>9.5.6</dep.yourkit-api.version>
-    <dep.zookeeper.version>3.3.3</dep.zookeeper.version>
+    <dep.zookeeper.version>3.4.14</dep.zookeeper.version>
 
     <forHadoop>for-hadoop-${hadoop.version}</forHadoop>
   </properties>
