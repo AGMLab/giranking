@@ -274,7 +274,7 @@ under the License.
     <dep.hive.version>0.11.0</dep.hive.version>
     <dep.hiveio.version>0.16</dep.hiveio.version>
     <dep.json.version>20090211</dep.json.version>
-    <dep.junit.version>4.8</dep.junit.version>
+    <dep.junit.version>4.13.1</dep.junit.version>
     <dep.jython.version>2.5.3</dep.jython.version>
     <dep.mockito.version>1.8.5</dep.mockito.version>
     <dep.netty.version>3.5.3.Final</dep.netty.version>
